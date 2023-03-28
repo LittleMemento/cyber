@@ -25,6 +25,9 @@ a,
 p,
 h5,
 h6,
-small {
+small,
+label,
+input,
+button   {
   font-family: "Montserrat", sans-serif;
 }

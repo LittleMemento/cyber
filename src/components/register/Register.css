@@ -1,0 +1,137 @@
+.Register {
+  width: 100%;
+  background-color: #17044a;
+  padding: 100px 0 200px 0;
+}
+
+.register_border {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px;
+  background: linear-gradient(to right bottom, #da04ff, #00e0ff);
+  border-radius: 20px;
+}
+
+.register_border .register_block {
+  width: 100%;
+  height: 100%;
+  padding: 50px 120px 120px 120px;
+  background-color: #17044a;
+  backdrop-filter: blur(22px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register_border .register_block h3 {
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.14em;
+  color: #ffffff;
+}
+
+.register_border .register_block .btn_block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.register_border .register_block .btn_block .btn {
+  width: 20%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 2px;
+  background: transparent;
+  transition: 0.4s;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register_border .register_block .btn_block .btn b {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 22px;
+  color: #ffffff;
+  background-color: #17044a;
+  backdrop-filter: blur(22px);
+  border-radius: 5px;
+  letter-spacing: 0.14em;
+}
+
+.register_border .register_block .btn_block .fire {
+  background: linear-gradient(to right bottom, #db00ff, #00e0ff);
+}
+
+.register_border .register_block .btn_block .btn:hover {
+  background: linear-gradient(to right bottom, #db00ff, #00e0ff);
+}
+
+.register_border .register_block .your_self {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.register_border .register_block .your_self .input {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.register_border .register_block .your_self .input label {
+  font-weight: 300;
+  font-size: 22px;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
+.register_border .register_block .your_self .input input {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.register_border .register_block .your_self .input_time div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register_border .register_block .your_self .input_time div input {
+  width: 48%;
+}
+
+.register_border .register_block .btn_otp {
+  margin-top: 70px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 100px;
+  background: #8f00ff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  letter-spacing: 0.14rem;
+}
