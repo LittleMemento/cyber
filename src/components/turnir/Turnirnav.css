@@ -1,0 +1,50 @@
+.Turnirnav {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.Turnirnav h3 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #ffffff;
+  letter-spacing: 0.14rem;
+}
+
+.Turnirnav .turnir_list {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Turnirnav .turnir_list .list_item {
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s;
+}
+
+.Turnirnav .turnir_list .list_item a {
+  font-weight: 600;
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.Turnirnav .turnir_list .list_item .underline {
+  width: 100%;
+  height: 3px;
+  background: transparent;
+  transition: 0.4s;
+}
+
+.Turnirnav .turnir_list .fire .underline {
+  background: linear-gradient(to left, #ad00ff, #00e0ff);
+}
+
+.Turnirnav .turnir_list .list_item:hover .underline {
+  background: linear-gradient(to left, #ad00ff, #00e0ff);
+}

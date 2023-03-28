@@ -1,0 +1,101 @@
+.Gallery {
+  width: 100%;
+  background-color: #17044a;
+  padding: 80px 0;
+}
+
+.Gtitle {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.Gtitle h4 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.Gimg {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Gimg .img1 {
+  width: 30%;
+  height: 380px;
+}
+
+.Gimg .img1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.Gimg .img2 {
+  width: 28%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Gimg .img2 img {
+  width: 100%;
+  height: 50%;
+}
+
+.Gimg .img3 {
+  width: 20%;
+  height: 380px;
+}
+
+.Gimg .img3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.Gimg .img4 {
+  width: 22%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Gimg .img4 img {
+  width: 100%;
+  height: 50%;
+}
+
+.Gimg .img5 {
+  width: 30%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Gimg .img5 img {
+  width: 100%;
+  height: 50%;
+}
+
+.Gimg .img6 {
+  width: 48%;
+  height: 380px;
+}
+
+.Gimg .img6 img {
+  width: 100%;
+  height: 100%;
+}
+
+.Gimg .img7 {
+  width: 22%;
+  height: 380px;
+}
+
+.Gimg .img7 img {
+  width: 100%;
+  height: 100%;
+}
