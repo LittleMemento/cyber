@@ -60,3 +60,82 @@
   color: #ffffff;
   margin-top: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+  .digit_block {
+    width: 90%;
+  }
+
+  .digit_block .card_boxes {
+    height: 300px;
+  }
+
+  .digit_block .card_boxes .box b {
+    font-size: 45px;
+  }
+
+  .digit_block .card_boxes .box small {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Digits {
+    padding: 50px 0;
+  }
+
+  .digit_block {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .digit_block .card_boxes {
+    height: 200px;
+    border-radius: 5px;
+  }
+
+  .digit_block .card_boxes .box {
+    border-radius: 5px;
+  }
+
+  .digit_block .card_boxes .box b {
+    font-size: 38px;
+  }
+
+  .digit_block .card_boxes .box small {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Digits {
+    padding: 50px 0;
+  }
+
+  .digit_block {
+    flex-wrap: wrap;
+  }
+
+  .digit_block .card_boxes {
+    width: 48%;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .digit_block {
+    padding: 0 25px;
+  }
+
+  .digit_block .card_boxes .box b {
+    font-size: 30px;
+  }
+
+  .digit_block .card_boxes .box small {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}

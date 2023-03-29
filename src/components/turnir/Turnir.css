@@ -40,3 +40,57 @@
   border-radius: 5px;
   letter-spacing: 0.14em;
 }
+
+@media screen and (max-width: 1300px) {
+  .Turnir .btn {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Turnir .btn {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Turnir .btn {
+    width: 25%;
+  }
+
+  .Turnir .btn b {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Turnir .btn {
+    width: 30%;
+  }
+
+  .Turnir .btn b {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Turnir .btn {
+    width: 30%;
+    height: 40px;
+    margin-top: 30px;
+  }
+
+  .Turnir .btn b {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Turnir .btn {
+    height: 35px;
+  }
+
+  .Turnir .btn b {
+    font-size: 12px;
+  }
+}

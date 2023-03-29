@@ -3,6 +3,7 @@
   background-image: url("../assets/banner-img.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .Header {
@@ -25,4 +26,65 @@
 
 .Header h1 span {
   color: #8f00ff;
+}
+
+@media screen and (max-width: 1500px) {
+  .Header h1 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .Header h1 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .Header h1 {
+    font-size: 50px;
+    margin-top: 120px;
+    line-height: 90px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Header h1 {
+    width: 100%;
+    padding: 0 80px;
+    font-size: 45px;
+    line-height: 80px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .Header h1 {
+    padding: 0 50px;
+    font-size: 38px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Header h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Header h1 {
+    padding: 0 25px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Header h1 {
+    font-size: 26px;
+    line-height: 35px;
+    margin-top: 170px;
+  }
 }

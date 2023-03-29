@@ -3,6 +3,7 @@
   background-image: url("../assets/banner-img-3.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 150px 0;
 }
 
@@ -47,4 +48,134 @@
   background-color: #000;
   border-radius: 5px;
   letter-spacing: 0.14em;
+}
+
+@media screen and (max-width: 1350px) {
+  .b_section {
+    padding: 120px 0;
+  }
+
+  .Sectionb h2 {
+    width: 65%;
+    font-size: 34px;
+  }
+
+  .Sectionb .btn {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Sectionb {
+    width: 90%;
+  }
+
+  .Sectionb h2 {
+    width: 70%;
+  }
+
+  .Sectionb .btn {
+    width: 22%;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .b_section {
+    padding: 100px 0;
+  }
+
+  .Sectionb {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .Sectionb h2 {
+    width: 75%;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .Sectionb .btn {
+    width: 25%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+
+  .Sectionb .btn b {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .b_section {
+    padding: 50px 0;
+  }
+
+  .Sectionb h2 {
+    width: 80%;
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .Sectionb .btn {
+    width: 28%;
+    height: 45px;
+    margin-top: 30px;
+  }
+
+  .Sectionb .btn b {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Sectionb h2 {
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .Sectionb .btn {
+    width: 30%;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .Sectionb .btn b {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Sectionb {
+    padding: 0 25px;
+  }
+  .Sectionb h2 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .Sectionb .btn {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Sectionb {
+    padding: 0 25px;
+  }
+  .Sectionb h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .Sectionb .btn {
+    height: 35px;
+  }
+
+  .Sectionb .btn b {
+    font-size: 12px;
+  }
 }

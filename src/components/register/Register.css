@@ -135,3 +135,161 @@
   color: #ffffff;
   letter-spacing: 0.14rem;
 }
+
+@media screen and (max-width: 1550px) {
+  .register_border {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .register_border .register_block {
+    padding: 50px 100px 100px 100px;
+  }
+  .register_border .register_block .btn_block .btn {
+    width: 23%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .register_border {
+    width: 90%;
+  }
+
+  .register_border .register_block {
+    padding: 50px 80px 80px 80px;
+  }
+  .register_border .register_block .btn_block .btn {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Register {
+    padding: 100px 0 150px 0;
+  }
+
+  .register_border {
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .register_border .register_block {
+    padding: 50px;
+    border-radius: 10px;
+  }
+
+  .register_border .register_block h3 {
+    font-size: 32px;
+  }
+
+  .register_border .register_block .btn_block .btn {
+    width: 30%;
+  }
+
+  .register_border .register_block .btn_block .btn b {
+    font-size: 20px;
+  }
+
+  .register_border .register_block .your_self .input label {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .register_border .register_block .your_self .input input {
+    font-size: 18px;
+  }
+
+  .register_border .register_block .btn_otp {
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 15px 80px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Register {
+    padding: 100px 0;
+  }
+
+  .register_border .register_block {
+    padding: 30px;
+  }
+
+  .register_border .register_block h3 {
+    font-size: 28px;
+  }
+
+  .register_border .register_block .btn_block .btn {
+    width: 30%;
+    height: 45px;
+  }
+
+  .register_border .register_block .btn_block .btn b {
+    font-size: 16px;
+  }
+
+  .register_border .register_block .your_self .input {
+    margin-top: 30px;
+  }
+
+  .register_border .register_block .your_self .input label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .register_border .register_block .your_self .input input {
+    font-size: 18px;
+  }
+
+  .register_border .register_block .btn_otp {
+    margin-top: 30px;
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Register {
+    padding: 80px 0;
+  }
+
+  .register_border .register_block h3 {
+    font-size: 25px;
+  }
+
+  .register_border .register_block .btn_block .btn {
+    height: 40px;
+  }
+
+  .register_border .register_block .btn_block .btn b {
+    font-size: 12px;
+  }
+
+  .register_border .register_block .your_self {
+    flex-wrap: wrap;
+  }
+
+  .register_border .register_block .your_self .input {
+    width: 100%;
+  }
+  
+  .register_border .register_block .btn_otp {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Register {
+    padding: 80px 0;
+  }
+  
+  .register_border .register_block .btn_block .btn {
+    width: 40%;
+    height: 35px;
+  }
+
+  .register_border .register_block .btn_block .btn b {
+    font-size: 12px;
+  }
+}
+

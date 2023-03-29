@@ -48,3 +48,63 @@
 .Turnirnav .turnir_list .list_item:hover .underline {
   background: linear-gradient(to left, #ad00ff, #00e0ff);
 }
+
+@media screen and (max-width: 1200px) {
+  .Turnirnav {
+    width: 90%;
+    margin-bottom: 150px;
+  }
+
+  .Turnirnav .turnir_list {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Turnirnav {
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Turnirnav h3 {
+    font-size: 28px;
+  }
+
+  .Turnirnav .turnir_list {
+    width: 100%;
+  }
+
+  .Turnirnav .turnir_list .list_item a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Turnirnav {
+    padding: 0 25px;
+    margin-bottom: 50px;
+  }
+
+  .Turnirnav h3 {
+    font-size: 25px;
+  }
+
+  .Turnirnav .turnir_list .list_item a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Turnirnav h3 {
+    font-size: 22px;
+  }
+
+  .Turnirnav .turnir_list .list_item a {
+    font-size: 14px;
+  }
+}
+

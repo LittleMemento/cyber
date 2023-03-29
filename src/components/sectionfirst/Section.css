@@ -3,6 +3,7 @@
   background-image: url("../assets/banner-bg-2.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .Section {
@@ -73,4 +74,121 @@
   border-left: 2px solid #00e0ff;
   border-right: 2px solid #db00ff;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .Section {
+    width: 90%;
+    padding: 150px 0 200px 0;
+  }
+
+  .Section h2 {
+    width: 90%;
+    font-size: 34px;
+  }
+
+  .Section .card_box {
+    margin-top: 150px;
+  }
+
+  .Section .card_box .box_border {
+    width: 31%;
+  }
+
+  .Section .card_box .box_border .box_block {
+    padding: 80px 10px 30px 10px;
+  }
+
+  .Section .card_box .box_border .box_block h4 {
+    font-size: 22px;
+  }
+
+  .Section .card_box .box_border .box_block p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Section {
+    width: 100%;
+    padding: 100px 50px 150px 50px;
+  }
+
+  .Section h2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .Section .card_box {
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+
+  .Section .card_box .box_border {
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 150px;
+  }
+
+  .Section .card_box .box_border .box_block {
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Section {
+    padding: 100px 50px;
+  }
+
+  .Section h2 {
+    padding: 0;
+    font-size: 28px;
+  }
+
+  .Section .card_box .box_border {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Section {
+    padding: 50px;
+  }
+
+  .Section h2 {
+    font-size: 20px;
+  }
+
+  .Section .card_box .box_border {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Section {
+    padding: 50px 25px;
+  }
+
+  .Section h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Section .card_box .box_border .box_block {
+    padding: 80px 10px 20px 10px;
+  }
+
+  .Section .card_box .box_border .box_block h4 {
+    font-size: 20px;
+  }
+
+  .Section .card_box .box_border .box_block p {
+    font-size: 14px;
+  }
 }

@@ -4,6 +4,7 @@ import facebook from "../assets/facebook.png";
 import telegram from "../assets/telegram.png";
 import instagram from "../assets/instagram.png";
 import youtube from "../assets/youtube.png";
+import emailicon from "../assets/email-icon.jpg";
 
 function Footer() {
   return (
@@ -63,9 +64,19 @@ function Footer() {
           </p>
           <form>
             <input type="email" placeholder="Your Email" />
+            <div className="imgemail">
+              <img src={emailicon} alt="img" />
+            </div>
           </form>
+          <div className="checking">
+            <input type="checkbox" />
+            <small>
+              I accept <span>newsletter terms</span>
+            </small>
+          </div>
         </div>
       </div>
+      <h6 className="copyright">Copyright by Digital City 2022</h6>
     </div>
   );
 }
